@@ -1,0 +1,15 @@
+# Gradle
+.gradle/
+build/
+
+# IntelliJ
+.idea/
+*.iml
+
+# Lokale hemmeligheter — skal ALDRI committes
+local.properties
+*.pem
+*.p12
+*.jks
+*.pfx
+secrets/

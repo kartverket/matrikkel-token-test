@@ -1,0 +1,10 @@
+MATRIKKEL_USERNAME=<brukernavn>
+MATRIKKEL_PASSWORD=<passord>
+MATRIKKEL_WELL_KNOWN_URL=https://kc-test.matrikkel.no/auth/realms/matrikkelen-test/.well-known/openid-configuration
+
+# --- Maskinporten (valgfri) ---
+MASKINPORTEN_CLIENT_ID=<uuid fra samarbeidsportalen>
+MASKINPORTEN_SCOPE=<scope, f.eks. kartverket:matrikkel/read>
+MASKINPORTEN_PRIVATE_KEY=-----BEGIN PRIVATE KEY-----\n<base64-innhold>\n-----END PRIVATE KEY-----
+MASKINPORTEN_KEY_ID=<kid fra samarbeidsportalen>
+MASKINPORTEN_WELL_KNOWN_URL=https://test.maskinporten.no/.well-known/oauth-authorization-server
